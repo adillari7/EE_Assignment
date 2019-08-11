@@ -1,0 +1,38 @@
+19:50:14.619 [main] DEBUG com.assignment.testclass.HomePageTest - Clicked on Sign In
+19:50:16.761 [main] INFO  com.assignment.testclass.HomePageTest - Email ID is wBczD@xyz.com
+19:50:17.106 [main] DEBUG com.assignment.testclass.HomePageTest - Set first name as Adil
+19:50:17.393 [main] DEBUG com.assignment.testclass.HomePageTest - Set first name as Lari
+19:50:17.564 [main] DEBUG com.assignment.testclass.HomePageTest - Set first name as 12345
+19:50:17.795 [main] DEBUG com.assignment.testclass.HomePageTest - Select Days as 25
+19:50:18.103 [main] DEBUG com.assignment.testclass.HomePageTest - Select Days as January
+19:50:18.273 [main] DEBUG com.assignment.testclass.HomePageTest - Select Days as 1992
+19:50:18.307 [main] INFO  com.assignment.testclass.HomePageTest - Verified first name as Adil
+19:50:18.338 [main] INFO  com.assignment.testclass.HomePageTest - Verified last name as Lari
+19:50:18.574 [main] DEBUG com.assignment.testclass.HomePageTest - Set fcompany as abcdCompany
+19:50:18.872 [main] DEBUG com.assignment.testclass.HomePageTest - Set first name as Adil
+19:50:19.110 [main] DEBUG com.assignment.testclass.HomePageTest - Set first name as Adil
+19:50:22.423 [main] INFO  com.assignment.testclass.HomePageTest - Successfully clicked on register!!
+19:50:25.361 [main] DEBUG com.assignment.testclass.HomePageTest - Added Product Faded Short Sleeve T-shirts to Cart
+19:50:26.159 [main] INFO  com.assignment.testclass.HomePageTest - Clicked on Continue shopping
+19:50:26.991 [main] DEBUG com.assignment.testclass.HomePageTest - Added Product Blouse to Cart
+19:50:28.228 [main] INFO  com.assignment.testclass.HomePageTest - Clicked on Continue shopping
+19:50:29.036 [main] DEBUG com.assignment.testclass.HomePageTest - Added Product Printed Dress to Cart
+19:50:30.237 [main] INFO  com.assignment.testclass.HomePageTest - Clicked on Continue shopping
+19:50:31.047 [main] DEBUG com.assignment.testclass.HomePageTest - Added Product Printed Dress to Cart
+19:50:32.232 [main] INFO  com.assignment.testclass.HomePageTest - Clicked on Continue shopping
+19:50:32.233 [main] INFO  com.assignment.testclass.HomePageTest - ****************************************** ITEMS ADDED TO CART ********************************************
+19:50:34.263 [main] INFO  com.assignment.testclass.HomePageTest - Clicked on Cart
+19:50:34.267 [main] INFO  com.assignment.testclass.HomePageTest - ***************************** Start - Verify Price Summary Screen *********************************
+19:50:34.272 [main] TRACE com.assignment.testclass.HomePageTest - ********************** Without Tax Price Comparision ***********************
+19:50:34.531 [main] INFO  com.assignment.testclass.HomePageTest - Total of  Total products ,Total shipping : 122.5
+19:50:34.531 [main] INFO  com.assignment.testclass.HomePageTest - Expected Total Price of Shipping And Total Product 122.5 is equal to Total Price W/O Tax 122.5
+19:50:34.531 [main] TRACE com.assignment.testclass.HomePageTest - ********************** Without Tax Price Comparision End ***********************
+19:50:34.531 [main] TRACE com.assignment.testclass.HomePageTest - ********************** With Tax Price Comparision ***********************
+19:50:34.725 [main] INFO  com.assignment.testclass.HomePageTest - Total Price : 122.5
+19:50:34.725 [main] INFO  com.assignment.testclass.HomePageTest - Sum of Total products ,Total shipping and Tax : 122.5
+19:50:34.725 [main] INFO  com.assignment.testclass.HomePageTest - Expected Total Price 122.5 is equal to Actual Price 122.5
+19:50:34.725 [main] TRACE com.assignment.testclass.HomePageTest - ********************** With Tax Price Comparision End ***********************
+19:50:34.725 [main] TRACE com.assignment.testclass.HomePageTest - **********************Start : Verify number of items*price of items ***********************
+19:50:35.187 [main] INFO  com.assignment.testclass.HomePageTest - Total Cost is (number of items*price of items) with tax include : Expected Price 120.5 Actual Price 120.5
+19:50:35.187 [main] TRACE com.assignment.testclass.HomePageTest - **********************End : Verify number of items*price of items ***********************
+19:50:35.187 [main] INFO  com.assignment.testclass.HomePageTest - ***************************** End   - Verify Price Summary Screen *********************************

@@ -1,0 +1,12 @@
+09:56:34.016 [main] DEBUG com.assignment.testclass.HomePageTest - Clicked on Sign In
+09:56:37.687 [main] DEBUG com.assignment.testclass.HomePageTest - Set first name as Adil
+09:56:37.953 [main] DEBUG com.assignment.testclass.HomePageTest - Set first name as Lari
+09:56:38.292 [main] DEBUG com.assignment.testclass.HomePageTest - Set first name as 12345
+09:56:38.643 [main] DEBUG com.assignment.testclass.HomePageTest - Select Days as 25
+09:56:39.260 [main] DEBUG com.assignment.testclass.HomePageTest - Select Days as January
+09:56:39.614 [main] DEBUG com.assignment.testclass.HomePageTest - Select Days as 1992
+09:56:39.984 [main] DEBUG com.assignment.testclass.HomePageTest - Set first name as Adil
+09:56:40.290 [main] DEBUG com.assignment.testclass.HomePageTest - Set first name as Lari
+09:56:40.786 [main] DEBUG com.assignment.testclass.HomePageTest - Set fcompany as abcdCompany
+09:56:41.466 [main] DEBUG com.assignment.testclass.HomePageTest - Set first name as Adil
+09:56:42.016 [main] DEBUG com.assignment.testclass.HomePageTest - Set first name as Adil
