@@ -28,7 +28,7 @@ public class HomePageTest extends BaseTest {
 	
 	public static final Logger log = LogManager.getLogger(HomePageTest.class.getName());
 	
-	@Test(priority=-1)
+	@Test(priority=0)
 	public void preRequisites() throws FileNotFoundException, IOException
 	{
 		homePage = PageFactory.initElements(driver, HomePage.class);
@@ -40,7 +40,7 @@ public class HomePageTest extends BaseTest {
 	}
 	
 	
-	@Test(priority=0)
+	@Test(priority=1)
 	public void signIn() {
 		try {
 			homePage.ClickOnSignIn();
@@ -56,7 +56,7 @@ public class HomePageTest extends BaseTest {
 		
 	}
 	
-	@Test(priority=1)
+	@Test(priority=2)
 	public void registerUser() {
 		try {
 			String gender = propRegister.get("gender").toString();
@@ -83,7 +83,7 @@ public class HomePageTest extends BaseTest {
 		}
 	}
 	
-	@Test(priority=2)
+	@Test(priority=3)
 	public void addToCart()
 	{
 		try {
@@ -94,7 +94,7 @@ public class HomePageTest extends BaseTest {
 		}
 	}
 	
-	@Test(priority=3)
+	@Test(priority=4)
 	public void verifyPriceOnSummaryPage()
 	{
 		try {

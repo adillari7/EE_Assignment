@@ -49,7 +49,6 @@ public class RegistrationPage extends UtilFunction {
 	@FindBy(id="years")
 	WebElement selectYears;
 	
-
 	@FindBy(id="firstname")
 	WebElement firstNameAddress;
 	
@@ -110,15 +109,15 @@ public class RegistrationPage extends UtilFunction {
 		sendKeys(this.firstName, firstName);
 		log.debug("Set first name as "+firstName);
 		sendKeys(this.lastName, lastName);
-		log.debug("Set first name as "+lastName);
+		log.debug("Set last name as "+lastName);
 		sendKeys(this.passwd, password);
-		log.debug("Set first name as "+password);
+		log.debug("Set password name as "+password);
 		selectValue(this.selectDays, daysDOB,"value");
 		log.debug("Select Days as "+daysDOB);
 		selectValue(this.selectMonths, monthDOB,"visiblePartialtext");
-		log.debug("Select Days as "+monthDOB);
+		log.debug("Select Month as "+monthDOB);
 		selectValue(this.selectYears, yearDOB,"value");
-		log.debug("Select Days as "+yearDOB);
+		log.debug("Select Year as "+yearDOB);
 		log.info("Verified first name as "+getValue(firstNameAddress));
 		log.info("Verified last name as "+getValue(lastNameAddress));
 		sendKeys(this.companyName, company);
@@ -126,7 +125,7 @@ public class RegistrationPage extends UtilFunction {
 		sendKeys(this.address, address);
 		log.debug("Set first name as "+firstName);
 		sendKeys(this.address2, address2);
-		log.debug("Set first name as "+firstName);
+		log.debug("Set last name as "+firstName);
 		sendKeys(this.city, city);
 		selectValue(this.state, state,"visiblePartialtext");
 		sendKeys(this.postcode, postalCode);
@@ -135,7 +134,7 @@ public class RegistrationPage extends UtilFunction {
 		sendKeys(this.mobilePhone, mobilePhone);
 		sendKeys(this.myAddressAlias, aliasAddress);		
 		click(register);
-		log.info("Successfully clicked on register!!");
+		log.info("Successfully clicked on register Button!!");
 	}
 	
 	
